@@ -1,0 +1,181 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 50px 50px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.header__logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.header__cart {
+    width: 140px;
+    height: 38px;
+    left: 1251px;
+    top: 89px;
+    background-color: #5222D0;
+    color: #fff;
+    border: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    text-transform: uppercase; 
+    display: flex; 
+    align-items: center; 
+    transform: translateX(-50%); 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.header__cart-text {
+    margin-right: 10px;
+}
+
+.header__cart-lock {
+    width: 14px;
+    height: 14px;
+}
+
+footer {
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #5222D0;
+    font-size: 17px;
+}
+
+.hero {
+    position: relative;
+    padding: 25px 60px;
+    height: 65vh; 
+    overflow: hidden;
+}
+
+.hero__container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__content {
+    z-index: 2;
+    max-width: 50%;
+}
+
+.hero__title {
+    width: 542px; 
+    height: 216px; 
+    left: 126px; 
+    top: 206px; 
+    font-weight: 400; 
+    font-size: 60px; 
+    line-height: 72px; 
+    color: #000000; 
+    
+    text-transform: uppercase; 
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+.hero__description {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 50px;
+}
+
+.hero__button {
+    position:absolute;
+    width: 270px;
+    height: 74px;
+    background-color: #5222D0;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 50px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 12px;
+}
+
+.hero__button-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px; 
+    text-transform: uppercase; 
+}
+
+.hero__button-icon {
+    width: 24px;
+    height: 24px; 
+}
+
+.hero__image {
+    position: absolute;
+    left: 49.4%;
+    right: 11.5%;
+    top: 17.79%;
+    bottom: 5.29%;
+    z-index: 1;
+    max-width: 50%;
+    height: auto;
+}
+
+.hero__background {
+    position: absolute;
+    left: 45.62%;
+    right: -21.76%;
+    top: 14.23%;
+    bottom: 11.69%;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 0;
+}
